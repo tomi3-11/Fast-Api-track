@@ -1,7 +1,10 @@
 #!/bin/bash
 
-image="hello-world"
-container="hello-container"
+#image="hello-world"
+#container="hello-container"
+
+image=$1
+container=$2
 
 # build the image
 docker build -t $image .
