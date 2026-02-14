@@ -10,3 +10,8 @@ dependencies = [
 
 [tool.uv.sources]
 fastapi = { workspace = true }
+
+[tool.uv.workspace]
+members = [
+    "path_parameter",
+]
